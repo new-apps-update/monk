@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Monk Mode</title>
+<meta name="theme-color" content="#09090b">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Monk Mode">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link id="manifest" rel="manifest" href="manifest.json">
+<link id="favicon" rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link id="apple" rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs><linearGradient id="gr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--a1)"/><stop offset="1" style="stop-color:var(--a2)"/></linearGradient></defs></svg>
+<canvas id="bg"></canvas><div class="orbs"><i></i><i></i></div>
+<div id="app">
+  <aside id="side"></aside>
+  <main><header id="top"></header><div id="page" class="page"></div></main>
+  <nav id="tabs"></nav>
+</div>
+<div id="mroot"></div><div id="toasts"></div><canvas id="fx"></canvas>
+
+<script src="app.js"></script>
+</body>
+</html>
